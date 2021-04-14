@@ -38,7 +38,7 @@ fetch('/createpost',{
 })
     },[url])
 
-    const postData = ()=>{
+    const postData = ()=>{ 
         
         const formData = new FormData();
         formData.append('file',image);
